@@ -6,19 +6,27 @@ A modern, interactive, and award-winning website built with React, featuring stu
 
 ## Table of Contents
 
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Deployment](#deployment)
-- [How to Use App for Regular User](#how-to-use-app-for-regular-user)
-- [Installation](#installation)
-  - [Prerequisites](#prerequisites)
-  - [Setup Steps](#setup-steps)
-- [Development](#development)
-  - [Available Scripts](#available-scripts)
-  - [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+- [Award-Winning Website](#award-winning-website)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+  - [Tech Stack](#tech-stack)
+  - [Deployment](#deployment)
+    - [Live Application](#live-application)
+    - [Deployment Information](#deployment-information)
+  - [🔐 Test and Admin Users Credentials](#-test-and-admin-users-credentials)
+  - [How to Use App for Regular User](#how-to-use-app-for-regular-user)
+    - [Navigating the Website](#navigating-the-website)
+    - [Tips for Best Experience](#tips-for-best-experience)
+  - [Installation](#installation)
+    - [Prerequisites](#prerequisites)
+    - [Setup Steps](#setup-steps)
+  - [Development](#development)
+    - [Available Scripts](#available-scripts)
+    - [Project Structure](#project-structure)
+    - [Building for Production](#building-for-production)
+  - [Contributing](#contributing)
+  - [License](#license)
+  - [Contact](#contact)
 
 ---
 
@@ -81,7 +89,7 @@ A modern, interactive, and award-winning website built with React, featuring stu
 
 ### Live Application
 
-🌐 **Live URL:** [APP URL]
+🌐 **Live URL:** [https://zentry-aww-clone-react-gsap-tcss-js.netlify.app/]
 
 The application is deployed and accessible at the URL above. Visit the link to experience the full interactive website.
 
@@ -90,6 +98,12 @@ The application is deployed and accessible at the URL above. Visit the link to e
 - **Build Command:** `npm run build`
 - **Output Directory:** `dist`
 - **Node Version:** 18.x or higher recommended
+
+---
+
+## 🔐 Test and Admin Users Credentials
+
+> ⚠️ **Note:** There is no user management system in this App.
 
 ---
 
@@ -143,7 +157,7 @@ Before you begin, ensure you have the following installed:
 1. **Clone the repository**
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/tauseefiqbal/Zentry_aww_clone-react-gsap-tcss-js.git
 cd award-winning-website-main
 ```
 
