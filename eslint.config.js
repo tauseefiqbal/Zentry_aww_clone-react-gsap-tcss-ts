@@ -4,17 +4,18 @@ import react from "eslint-plugin-react";
 import reactHooks from "eslint-plugin-react-hooks";
 import reactRefresh from "eslint-plugin-react-refresh";
 import tailwind from "eslint-plugin-tailwindcss";
+import tseslint from "typescript-eslint";
 
 export default [
+  ...tseslint.configs.recommended,
   ...tailwind.configs["flat/recommended"],
   { ignores: ["dist"] },
   {
-    files: ["**/*.{js,jsx}"],
+    files: ["**/*.{js,jsx,ts,tsx}"],
     languageOptions: {
-      ecmaVersion: 2020,
+      ecmaVersion: "latest",
       globals: globals.browser,
       parserOptions: {
-        ecmaVersion: "latest",
         ecmaFeatures: { jsx: true },
         sourceType: "module",
       },

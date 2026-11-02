@@ -1,6 +1,21 @@
 import clsx from "clsx";
+import type { ReactNode } from "react";
 
-const Button = ({ id, title, rightIcon, leftIcon, containerClass }) => {
+interface ButtonProps {
+  id?: string;
+  title: string;
+  rightIcon?: ReactNode;
+  leftIcon?: ReactNode;
+  containerClass?: string;
+}
+
+const Button = ({
+  id,
+  title,
+  rightIcon,
+  leftIcon,
+  containerClass,
+}: ButtonProps) => {
   return (
     <button
       id={id}

@@ -3,11 +3,12 @@ import { useRef } from "react";
 
 import Button from "./Button";
 import AnimatedTitle from "./AnimatedTitle";
+import type { MouseEvent } from "react";
 
 const FloatingImage = () => {
-  const frameRef = useRef(null);
+  const frameRef = useRef<HTMLImageElement>(null);
 
-  const handleMouseMove = (e) => {
+  const handleMouseMove = (e: MouseEvent<HTMLImageElement>) => {
     const { clientX, clientY } = e;
     const element = frameRef.current;
 
