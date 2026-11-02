@@ -81,6 +81,7 @@ A modern, interactive, and award-winning website built with React, featuring stu
 **Development Tools:**
 - [ESLint](https://eslint.org/) (v9.14.0) - JavaScript linting utility
 - [Prettier](https://prettier.io/) (v3.3.3) - Code formatter
+- [TypeScript](https://www.typescriptlang.org/) - Strict type checking for the React application
 - TypeScript types for React and React DOM
 
 ---
@@ -196,7 +197,7 @@ Navigate to `http://localhost:5173` (or the port shown in your terminal)
 ### Available Scripts
 
 - **`npm run dev`** - Start the development server with hot module replacement
-- **`npm run build`** - Build the application for production
+- **`npm run build`** - Type-check the application and build it for production
 - **`npm run preview`** - Preview the production build locally
 - **`npm run lint`** - Run ESLint to check code quality
 
@@ -212,24 +213,26 @@ award-winning-website-main/
 ├── src/
 │   ├── assets/            # Source assets
 │   ├── components/        # React components
-│   │   ├── About.jsx      # About section
-│   │   ├── AnimatedTitle.jsx
-│   │   ├── Button.jsx     # Reusable button component
-│   │   ├── Contact.jsx    # Contact form section
-│   │   ├── Features.jsx   # Features showcase
-│   │   ├── Footer.jsx     # Footer component
-│   │   ├── Hero.jsx       # Hero section
-│   │   ├── Navbar.jsx     # Navigation bar
-│   │   ├── Story.jsx      # Story section
-│   │   └── VideoPreview.jsx
-│   ├── App.jsx            # Main App component
+│   │   ├── About.tsx      # About section
+│   │   ├── AnimatedTitle.tsx
+│   │   ├── Button.tsx     # Reusable button component
+│   │   ├── Contact.tsx    # Contact form section
+│   │   ├── Features.tsx   # Features showcase
+│   │   ├── Footer.tsx     # Footer component
+│   │   ├── Hero.tsx       # Hero section
+│   │   ├── Navbar.tsx     # Navigation bar
+│   │   ├── Story.tsx      # Story section
+│   │   └── VideoPreview.tsx
+│   ├── App.tsx            # Main App component
 │   ├── index.css          # Global styles
-│   └── main.jsx           # Entry point
+│   ├── main.tsx           # Entry point
+│   └── vite-env.d.ts      # Vite client type declarations
 ├── eslint.config.js       # ESLint configuration
 ├── index.html             # HTML template
 ├── package.json           # Project dependencies
 ├── postcss.config.js      # PostCSS configuration
 ├── tailwind.config.js     # Tailwind CSS configuration
+├── tsconfig.json          # TypeScript configuration
 ├── vite.config.js         # Vite configuration
 └── README.md              # Project documentation
 ```
