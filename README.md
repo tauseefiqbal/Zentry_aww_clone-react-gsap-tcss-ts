@@ -1,6 +1,6 @@
 # Award-Winning Website
 
-A modern, interactive, and award-winning website built with React, featuring stunning animations and a beautiful user interface.
+A modern, interactive, and award-winning website built with React, TypeScript, and GSAP animations featuring stunning animations and a beautiful user interface.
 
 ---
 
